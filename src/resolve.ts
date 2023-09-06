@@ -19,9 +19,7 @@ export class AwsCdkResolver implements IResolver {
     }
 
     const output = this.findOutput(context.value);
-    const stack = Stack.of(output);
-
-    const outputValue = this.fetchOutput(stack.stackName, stack.resolve(output.logicalId));
+    const outputValue = this.fetchOutput(output);
     context.replaceValue(JSON.parse(outputValue));
 
   }
@@ -41,19 +39,22 @@ export class AwsCdkResolver implements IResolver {
       }
     }
 
-    // this can happen if the user didn't define an output or
-    // if the output was defined in a different stack than the tokens comprising its value.
+    // This can happen if either:
+    // --------------------------
+    //  1. User didn't define an output.
+    //  2. Output was defined in a different stack than the tokens comprising its value.
+    //  3. None of the tokens comprising the value are a Reference.
     throw new Error(`Unable to find output defined for ${value} (Inspected stacks: ${inspectedStacks.map(s => s.stackName).join(',')})`);
 
   }
 
-  private fetchOutput(stackName: string, outputId: string) {
+  private fetchOutput(output: CfnOutput) {
 
     const script = path.join(__dirname, 'fetch-output.js');
     return execFileSync(process.execPath, [
       script,
-      stackName,
-      outputId,
+      Stack.of(output).stackName,
+      output.logicalId,
     ], { encoding: 'utf-8' }).toString().trim();
 
   }

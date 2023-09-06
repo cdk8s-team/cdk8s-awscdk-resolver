@@ -4,8 +4,8 @@ import { Topic } from 'aws-cdk-lib/aws-sns';
 import { ApiObject, Testing, Chart } from 'cdk8s';
 import * as resolve from '../src/resolve';
 
-function fetchOutput(stackName: string, outputId: string) {
-  return JSON.stringify(`${stackName}:${outputId}`);
+function fetchOutput(output: CfnOutput) {
+  return JSON.stringify(output.node.path);
 }
 
 const resolver = new resolve.AwsCdkResolver();
@@ -79,7 +79,7 @@ Object {
     "name": "chart-apiobject-c830d7bd",
   },
   "spec": Object {
-    "prop1": "Default:Output",
+    "prop1": "Default/Output",
   },
 }
 `);
@@ -112,7 +112,7 @@ Object {
     "name": "chart-apiobject-c830d7bd",
   },
   "spec": Object {
-    "prop1": "Default:Output",
+    "prop1": "Default/Output",
   },
 }
 `);
@@ -147,7 +147,7 @@ Object {
     "name": "chart-apiobject-c830d7bd",
   },
   "spec": Object {
-    "prop1": "Default:Output",
+    "prop1": "Default/Output",
   },
 }
 `);
@@ -180,7 +180,7 @@ Object {
     "name": "chart-apiobject-c830d7bd",
   },
   "spec": Object {
-    "prop1": "Default:Output",
+    "prop1": "Default/Output",
   },
 }
 `);
