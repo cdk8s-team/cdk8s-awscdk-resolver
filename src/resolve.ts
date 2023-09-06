@@ -15,7 +15,7 @@ export class AwsCdkResolver implements IResolver {
     if (typeof context.value !== 'string') {
       // should be ok because we only resolve CfnOutput values, which
       // must be strings.
-      throw new Error(`Invalid token type: ${typeof(context.value)}. Expected 'string'.`);
+      throw new Error(`Invalid value type: ${typeof(context.value)}. Expected 'string'.`);
     }
 
     const output = this.findOutput(context.value);
