@@ -322,7 +322,22 @@
       },
       "steps": [
         {
-          "exec": "echo No dependencies to upgrade."
+          "exec": "yarn upgrade npm-check-updates"
+        },
+        {
+          "exec": "npm-check-updates --upgrade --target=minor --filter=@aws-sdk/client-cloudformation,aws-cdk-lib,cdk8s,constructs"
+        },
+        {
+          "exec": "yarn install --check-files"
+        },
+        {
+          "exec": "yarn upgrade @aws-sdk/client-cloudformation aws-cdk-lib cdk8s constructs"
+        },
+        {
+          "exec": "npx projen"
+        },
+        {
+          "spawn": "post-upgrade"
         }
       ]
     },
