@@ -15,7 +15,7 @@ project.jest?.addIgnorePattern('/test/integ/');
 const integTask = project.addTask('integ');
 integTask.exec(jest('integ/integ.test.ts'));
 
-project.gitignore.exclude('test/integ/cdk.out', 'test/integ/dist');
+project.gitignore.exclude('test/integ/cdk.out', 'test/integ/dist', 'test/integ/outputs.json');
 
 project.synth();
 

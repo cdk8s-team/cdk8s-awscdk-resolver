@@ -69,3 +69,4 @@ tsconfig.json
 !/.github/workflows/upgrade-compiler-dependencies-main.yml
 test/integ/cdk.out
 test/integ/dist
+test/integ/outputs.json

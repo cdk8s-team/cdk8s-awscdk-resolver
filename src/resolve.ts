@@ -50,11 +50,11 @@ export class AwsCdkResolver implements IResolver {
 
   private fetchOutputValue(output: CfnOutput) {
 
-    const script = path.join(__dirname, 'fetch-output-value.ts');
+    const script = path.join(__dirname, 'fetch-output-value.js');
     return execFileSync(process.execPath, [
       script,
       Stack.of(output).stackName,
-      output.logicalId,
+      output.node.id,
     ], { encoding: 'utf-8' }).toString().trim();
 
   }
