@@ -4,12 +4,12 @@ import { Topic } from 'aws-cdk-lib/aws-sns';
 import { ApiObject, Testing, Chart } from 'cdk8s';
 import * as resolve from '../src/resolve';
 
-function fetchOutput(output: CfnOutput) {
+function fetchOutputValue(output: CfnOutput) {
   return JSON.stringify(output.node.path);
 }
 
 const resolver = new resolve.AwsCdkResolver();
-(resolver as any).fetchOutput = fetchOutput;
+(resolver as any).fetchOutputValue = fetchOutputValue;
 
 test('cannot resolve numbers', () => {
 

@@ -19,7 +19,7 @@ export class AwsCdkResolver implements IResolver {
     }
 
     const output = this.findOutput(context.value);
-    const outputValue = this.fetchOutput(output);
+    const outputValue = this.fetchOutputValue(output);
     context.replaceValue(JSON.parse(outputValue));
 
   }
@@ -48,9 +48,9 @@ export class AwsCdkResolver implements IResolver {
 
   }
 
-  private fetchOutput(output: CfnOutput) {
+  private fetchOutputValue(output: CfnOutput) {
 
-    const script = path.join(__dirname, 'fetch-output.js');
+    const script = path.join(__dirname, 'fetch-output-value.ts');
     return execFileSync(process.execPath, [
       script,
       Stack.of(output).stackName,
