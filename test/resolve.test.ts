@@ -1,4 +1,4 @@
-import { CfnOutput, Stack } from 'aws-cdk-lib';
+import { CfnOutput, Stack, Token } from 'aws-cdk-lib';
 import { Bucket } from 'aws-cdk-lib/aws-s3';
 import { Topic } from 'aws-cdk-lib/aws-sns';
 import { ApiObject, Testing, Chart } from 'cdk8s';
@@ -10,6 +10,25 @@ function fetchOutput(output: CfnOutput) {
 
 const resolver = new resolve.AwsCdkResolver();
 (resolver as any).fetchOutput = fetchOutput;
+
+test('cannot resolve numbers', () => {
+
+  const stack = new Stack();
+  const chart = new Chart(Testing.app({ resolvers: [resolver] }), 'Chart');
+
+  const bucket = new Bucket(stack, 'Bucket');
+
+  const obj = new ApiObject(chart, 'ApiObject', {
+    apiVersion: 'v1',
+    kind: 'Struct',
+    spec: {
+      prop1: Token.asNumber(bucket.bucketName),
+    },
+  });
+
+  expect(() => obj.toJson()).toThrowError('Invalid value type: number (Expected \'string\')');
+
+});
 
 test('cannot resolve value that doesnt have an output defined for it', () => {
 
