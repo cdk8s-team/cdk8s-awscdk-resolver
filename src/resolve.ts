@@ -42,7 +42,7 @@ export class AwsCdkResolver implements IResolver {
         const stack = Stack.of(token.target);
         inspectedStacks.push(stack);
         const output = stack.node.findAll().filter(c => c instanceof CfnOutput && c.value === value)[0] as CfnOutput;
-        // we don't really care if there are more outputs (possible from different stacks)
+        // we don't really care if there are more outputs (possibly from different stacks)
         // that point to the same value. the first will suffice.
         if (output) return output;
       }
