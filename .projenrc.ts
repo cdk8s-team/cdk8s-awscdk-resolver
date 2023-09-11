@@ -11,7 +11,7 @@ const project = new Cdk8sTeamJsiiProject({
 });
 
 // ignore integ tests because we will add a dedicated task
-// for them that only run on main
+// for them that only runs on release
 project.jest?.addIgnorePattern('/test/integ/');
 
 const integTask = project.addTask('integ');
