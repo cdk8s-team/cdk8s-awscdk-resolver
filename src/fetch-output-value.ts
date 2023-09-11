@@ -1,6 +1,6 @@
-const { CloudFormationClient, DescribeStacksCommand } = require('@aws-sdk/client-cloudformation');
+import { CloudFormationClient, DescribeStacksCommand } from '@aws-sdk/client-cloudformation';
 
-async function fetchOutputValue(stackName, outputName) {
+async function fetchOutputValue(stackName: string, outputName: string) {
 
   const cloudformation = new CloudFormationClient();
 
@@ -13,7 +13,7 @@ async function fetchOutputValue(stackName, outputName) {
   }
 
   const outputs = response.Stacks[0].Outputs ?? [];
-  const output = outputs.find(o => o.OutputKey === outputName)
+  const output = outputs.find(o => o.OutputKey === outputName);
 
   if (!output) {
     throw new Error(`Unable to find output ${outputName} in stack ${stackName}`);

@@ -48,18 +48,21 @@
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "aws-cdk": "^2.94.0",
+    "aws-cdk-lib": "2.94.0",
+    "cdk8s": "0.0.0",
     "cdk8s-cli": "^2.78.0",
+    "constructs": "10.2.70",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.9",
     "eslint-import-resolver-typescript": "^3.6.0",
     "eslint-plugin-import": "^2.28.0",
     "jest": "^27",
     "jest-junit": "^15",
-    "jsii": "1.x",
+    "jsii": "^5",
     "jsii-diff": "^1.87.0",
     "jsii-docgen": "^9.1.2",
     "jsii-pacmak": "^1.87.0",
-    "jsii-rosetta": "1.x",
+    "jsii-rosetta": "^5",
     "npm-check-updates": "^16",
     "projen": "^0.72.14",
     "standard-version": "^9",
@@ -67,16 +70,17 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },
+  "peerDependencies": {
+    "aws-cdk-lib": "^2.94.0",
+    "cdk8s": "^0.0.0",
+    "constructs": "^10.2.70"
+  },
   "dependencies": {
-    "@aws-sdk/client-cloudformation": "^3.391.0",
-    "aws-cdk-lib": "^2.92.0",
-    "cdk8s": "^2.64.5",
-    "constructs": "^10.2.69"
+    "@aws-sdk/client-cloudformation": "^3.391.0"
   },
-  "resolutions": {
-    "@types/babel__traverse": "7.18.2",
-    "@types/prettier": "2.6.0"
-  },
+  "bundledDependencies": [
+    "@aws-sdk/client-cloudformation"
+  ],
   "engines": {
     "node": ">= 16.20.0"
   },

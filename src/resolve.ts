@@ -19,8 +19,17 @@ export class AwsCdkResolver implements IResolver {
     }
 
     const output = this.findOutput(context.value);
-    const outputValue = this.fetchOutputValue(output);
-    context.replaceValue(JSON.parse(outputValue));
+    try {
+      const outputValue = this.fetchOutputValue(output);
+      context.replaceValue(outputValue);
+    } catch (err) {
+      // if both cdk8s and AWS CDK applications are defined within the same file,
+      // a cdk8s synth is going to happen before the AWS CDK deployment.
+      // in this case we must swallow the error, otherwise the AWS CDK deployment
+      // won't be able to go through. we replace the value with something to indicate
+      // that a fetching attempt was made and failed.
+      context.replaceValue(`Failed fetching value for output ${output.node.path}: ${err}`);
+    }
 
   }
 
@@ -50,12 +59,12 @@ export class AwsCdkResolver implements IResolver {
 
   private fetchOutputValue(output: CfnOutput) {
 
-    const script = path.join(__dirname, 'fetch-output-value.js');
-    return execFileSync(process.execPath, [
+    const script = path.join(__dirname, '..', 'lib', 'fetch-output-value.js');
+    return JSON.parse(execFileSync(process.execPath, [
       script,
       Stack.of(output).stackName,
       output.node.id,
-    ], { encoding: 'utf-8' }).toString().trim();
+    ], { encoding: 'utf-8', stdio: ['pipe'] }).toString().trim());
 
   }
 

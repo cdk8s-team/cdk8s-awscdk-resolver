@@ -98,7 +98,7 @@ Object {
     "name": "chart-apiobject-c830d7bd",
   },
   "spec": Object {
-    "prop1": "Default/Output",
+    "prop1": "\\"Default/Output\\"",
   },
 }
 `);
@@ -131,7 +131,7 @@ Object {
     "name": "chart-apiobject-c830d7bd",
   },
   "spec": Object {
-    "prop1": "Default/Output",
+    "prop1": "\\"Default/Output\\"",
   },
 }
 `);
@@ -166,7 +166,7 @@ Object {
     "name": "chart-apiobject-c830d7bd",
   },
   "spec": Object {
-    "prop1": "Default/Output",
+    "prop1": "\\"Default/Output\\"",
   },
 }
 `);
@@ -199,7 +199,7 @@ Object {
     "name": "chart-apiobject-c830d7bd",
   },
   "spec": Object {
-    "prop1": "Default/Output",
+    "prop1": "\\"Default/Output\\"",
   },
 }
 `);

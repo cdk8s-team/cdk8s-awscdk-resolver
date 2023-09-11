@@ -5,7 +5,9 @@ const project = new Cdk8sTeamJsiiProject({
   projenrcTs: true,
   release: true,
   devDeps: ['@cdk8s/projen-common', 'aws-cdk', 'cdk8s-cli'],
-  deps: ['aws-cdk-lib', 'cdk8s', '@aws-sdk/client-cloudformation', 'constructs'],
+  peerDeps: ['aws-cdk-lib', 'cdk8s', 'constructs'],
+  bundledDeps: ['@aws-sdk/client-cloudformation'],
+  jsiiVersion: '^5',
 });
 
 // ignore integ tests because we will add a dedicated task
