@@ -270,6 +270,9 @@
         },
         {
           "exec": "git diff --ignore-space-at-eol --exit-code"
+        },
+        {
+          "exec": "npx projen integ"
         }
       ]
     },

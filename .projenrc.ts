@@ -17,7 +17,11 @@ project.jest?.addIgnorePattern('/test/integ/');
 const integTask = project.addTask('integ');
 integTask.exec(jest('integ/integ.test.ts'));
 
-project.gitignore.exclude('test/integ/cdk.out', 'test/integ/dist', 'test/integ/outputs.json');
+// run integ on release.
+// we don't run it on each PR because it brings security and operational
+// issues which are not worth the effort at this moment.
+const releaseTask = project.tasks.tryFind('release')!;
+releaseTask.exec(`npx projen ${integTask.name}`);
 
 project.synth();
 
