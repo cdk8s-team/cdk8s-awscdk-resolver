@@ -1,8 +1,8 @@
 import * as child from 'child_process';
-import * as fs from 'fs';
 import * as os from 'os';
 import * as path from 'path';
 import { Yaml } from 'cdk8s';
+import * as fs from 'fs-extra';
 
 /*************************************************************
  * ------------------ NOTICE -------------------------------
@@ -11,15 +11,15 @@ import { Yaml } from 'cdk8s';
  * of `fetch-output-value.ts`
  ***************************************/
 
-test('single stack app', () => {
+test('app', () => {
 
-  const appFile = 'single-stack-app.ts';
+  const appFile = 'app.ts';
   const appDir = __dirname;
   const program = `npx ts-node ${path.join(appDir, appFile)}`;
   const stackName = 'cdk8s-awscdk-resolver-single-stack-app-integ-stack';
   const chartName = 'cdk8s-awscdk-resolver-single-stack-app-integ-chart';
 
-  const outTempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'single-stack-app-test-'));
+  const outTempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'app-test-'));
   const cdkOutDir = path.join(outTempDir, 'cdk.out');
   const cdk8sOutDir = path.join(outTempDir, 'dist');
   const outputsFilePath = path.join(outTempDir, 'outputs.json');
@@ -44,6 +44,10 @@ test('single stack app', () => {
 
   try {
     execProgram(`${cdk} -o ${cdkOutDir} -a '${program}' deploy --outputs-file ${outputsFilePath}`);
+
+    // delete the synthesized app to make sure we don't rely on it in the resolver
+    fs.removeSync(cdkOutDir);
+
     execProgram(`${cdk8s} synth -o ${cdk8sOutDir} -a '${program}'`);
 
     const outputs = JSON.parse(fs.readFileSync(outputsFilePath, { encoding: 'utf-8' }));

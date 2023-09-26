@@ -4,7 +4,7 @@ const project = new Cdk8sTeamJsiiProject({
   name: 'cdk8s-awscdk-resolver',
   projenrcTs: true,
   release: true,
-  devDeps: ['@cdk8s/projen-common', 'aws-cdk', 'cdk8s-cli'],
+  devDeps: ['@cdk8s/projen-common', 'aws-cdk', 'cdk8s-cli', 'fs-extra', '@types/fs-extra'],
   peerDeps: ['aws-cdk-lib', 'cdk8s', 'constructs'],
   bundledDeps: ['@aws-sdk/client-cloudformation'],
   jsiiVersion: '^5',
