@@ -14,7 +14,7 @@ import { AwsCdkResolver } from '@cdk8s/awscdk-resolver';
 const awsApp = new aws.App();
 const stack = new aws.Stack(awsApp, 'aws');
 
-const k8sApp = new k8s.App({ resolver: new AwsCdkResolver() });
+const k8sApp = new k8s.App({ resolvers: [new AwsCdkResolver()] });
 const manifest = new k8s.Chart(k8sApp, 'Manifest');
 
 const bucket = new aws.aws_s3.Bucket(stack, 'Bucket');
@@ -94,6 +94,7 @@ const awsApp = new aws.App();
 const stack = new aws.Stack(awsApp, 'aws');
 
 const bucket = new aws.aws_s3.Bucket(stack, 'Bucket');
+// export the thing we want to have available for cdk8s applications
 export const bucketName = new aws.CfnOutput(stack, 'BucketName', {
   value: bucket.bucketName,
 });
@@ -128,7 +129,7 @@ import { bucketName } from 'my-cdk-app';
 
 import { AwsCdkResolver } from '@cdk8s/awscdk-resolver';
 
-const k8sApp = new k8s.App({ resolver: new AwsCdkResolver() });
+const k8sApp = new k8s.App({ resolvers: [new AwsCdkResolver()] });
 const manifest = new k8s.Chart(k8sApp, 'Manifest');
 
 new kplus.CronJob(manifest, 'CronJob', {
