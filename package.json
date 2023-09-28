@@ -1,5 +1,5 @@
 {
-  "name": "cdk8s-awscdk-resolver",
+  "name": "@cdk8s/awscdk-resolver",
   "repository": {
     "type": "git",
     "url": "https://github.com/cdk8s-team/cdk8s-awscdk-resolver.git"
