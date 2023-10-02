@@ -1,4 +1,5 @@
 import { Cdk8sTeamJsiiProject } from '@cdk8s/projen-common';
+
 const project = new Cdk8sTeamJsiiProject({
   defaultReleaseBranch: 'main',
   name: '@cdk8s/awscdk-resolver',
@@ -8,6 +9,16 @@ const project = new Cdk8sTeamJsiiProject({
   peerDeps: ['aws-cdk-lib', 'cdk8s', 'constructs'],
   bundledDeps: ['@aws-sdk/client-cloudformation'],
   jsiiVersion: '^5',
+  releaseWorkflowSetupSteps: [
+    {
+      uses: 'aws-actions/configure-aws-credentials@v3',
+      with: {
+        'aws-region': 'us-east-1',
+        'role-to-assume': '${{ secrets.AWS_ROLE_TO_ASSUME }}',
+        'role-session-name': 'cdk8s-awscdk-resolver-release',
+      },
+    },
+  ],
 });
 
 // ignore integ tests because we will add a dedicated task

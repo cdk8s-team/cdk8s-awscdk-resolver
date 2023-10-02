@@ -30,6 +30,11 @@ jobs:
           node-version: 16.20.0
       - name: Install dependencies
         run: yarn install --check-files --frozen-lockfile
+      - uses: aws-actions/configure-aws-credentials@v3
+        with:
+          aws-region: us-east-1
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          role-session-name: cdk8s-awscdk-resolver-release
       - name: release
         run: npx projen release
       - name: Check for new commits
