@@ -1,4 +1,5 @@
 import { Cdk8sTeamJsiiProject } from '@cdk8s/projen-common';
+import { NpmAccess } from 'projen/lib/javascript';
 
 const project = new Cdk8sTeamJsiiProject({
   defaultReleaseBranch: 'main',
@@ -19,6 +20,7 @@ const project = new Cdk8sTeamJsiiProject({
       },
     },
   ],
+  npmAccess: NpmAccess.PUBLIC,
 });
 
 // ignore integ tests because we will add a dedicated task
