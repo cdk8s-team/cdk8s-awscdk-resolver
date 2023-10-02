@@ -34,6 +34,10 @@ integTask.exec(jest('integ/integ.test.ts'));
 const releaseTask = project.tasks.tryFind('release')!;
 releaseTask.exec(`npx projen ${integTask.name}`);
 
+// required for OIDC authentication
+const releaseWorkflow = project.tryFindObjectFile('.github/workflows/release.yml');
+releaseWorkflow!.addOverride('jobs.release.permissions.id-token', 'write');
+
 project.synth();
 
 function jest(args: string) {
