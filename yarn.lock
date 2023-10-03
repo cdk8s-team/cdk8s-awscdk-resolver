@@ -1092,7 +1092,7 @@
     chalk "^4.1.2"
     semver "^7.5.4"
 
-"@jsii/spec@1.87.0", "@jsii/spec@^1.85.0", "@jsii/spec@^1.87.0":
+"@jsii/spec@1.87.0", "@jsii/spec@^1.87.0":
   version "1.87.0"
   resolved "https://registry.yarnpkg.com/@jsii/spec/-/spec-1.87.0.tgz#99b9dd12ed92120e79e645538620db0526a7ad7b"
   integrity sha512-fhTT3IYmjyRKvUUWffBIuGDVVfyKC+QfE1cMyExSHl7l6wk6unrxS8qsU23kaJ5bNQAnlc2+CE1HteY2SLbepg==
@@ -4215,10 +4215,10 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob-promise@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/glob-promise/-/glob-promise-6.0.3.tgz#e6b3ab02d350b3f4b3e15b57e4485986e41ba2fe"
-  integrity sha512-m+kxywR5j/2Z2V9zvHKfwwL5Gp7gIFEBX+deTB9w2lJB+wSuw9kcS43VfvTAMk8TXL5JCl/cCjsR+tgNVspGyA==
+glob-promise@^6.0.5:
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/glob-promise/-/glob-promise-6.0.5.tgz#3d56331b324fd7d097b43ba9e9959e9c7e200e2c"
+  integrity sha512-uUzvxo60yo/vMLXZHCNAlfdM5U5A07jCnUO8xTK44Z0Vc58poGDXhDx8ju1DmPdprOORh+4Lpog64hl+AJ5piA==
   dependencies:
     "@types/glob" "^8.0.0"
 
@@ -5420,17 +5420,17 @@ jsii-diff@^1.89.0:
     log4js "^6.9.1"
     yargs "^16.2.0"
 
-jsii-docgen@^9.1.2:
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-9.1.2.tgz#40c18908827b233eba29b2c3413665dc47ecea80"
-  integrity sha512-AmHDbyXQTSuhVr2N9HqR4iql3U3Q9jSLmGN5cxfkmQXrd3xqTAlj6EMgE6XIxdVln0R1jMml5aeoa7nUhNp4gw==
+jsii-docgen@^9.2.2:
+  version "9.2.2"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-9.2.2.tgz#de5dabdf0b8bf11cff2b60a787df55ac91af55f5"
+  integrity sha512-QoL0BCGZMU1TxqJ7/RyEVhdKGnE2ZQnay9A35yJ8jkb31qyl6HN8dnAzfrz1ym4VbYtwlSqQ+Occjor8E/uxow==
   dependencies:
-    "@jsii/spec" "^1.85.0"
+    "@jsii/spec" "^1.89.0"
     case "^1.6.3"
     fs-extra "^10.1.0"
     glob "^8.1.0"
-    glob-promise "^6.0.3"
-    jsii-reflect "^1.85.0"
+    glob-promise "^6.0.5"
+    jsii-reflect "^1.89.0"
     semver "^7.5.4"
     yargs "^16.2.0"
 
@@ -5472,7 +5472,7 @@ jsii-pacmak@^1.89.0:
     xmlbuilder "^15.1.1"
     yargs "^16.2.0"
 
-jsii-reflect@^1.85.0, jsii-reflect@^1.87.0:
+jsii-reflect@^1.87.0:
   version "1.87.0"
   resolved "https://registry.yarnpkg.com/jsii-reflect/-/jsii-reflect-1.87.0.tgz#4302bdf1662ca09baa72fcf9216b987d1392e855"
   integrity sha512-Gk+Kat0O/+OFw1Q85HEq1Beoc6o4lqWNp7v7wZKwLLs4JFrBGOu1cIurAwfk6sFaWD2R7q85jZKs3tEbPzZlrA==
@@ -5533,9 +5533,9 @@ jsii-rosetta@^1.89.0:
     yargs "^16.2.0"
 
 jsii-rosetta@^5:
-  version "5.1.12"
-  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.1.12.tgz#d22f45473bfaf5a9c01029c0a9752bc1fc7e54bf"
-  integrity sha512-H158wTB6dP4FEhWIuLQ1dqzIMHiGULO6bKaQW7KNtLPl/fmtWJf/HT0jyC6EZmbeySYxJiScaSaDs0b/shisPw==
+  version "5.1.13"
+  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.1.13.tgz#5f5ccf112000c573747d039725d3cf48378ef781"
+  integrity sha512-EmtQU/Q5ex/e2XmysU1ZdEW3vK4feEPDXaivRj5Cf284fuEcWINcD38oPYog0XofPdqeBbf0n+EciBitoEhKGA==
   dependencies:
     "@jsii/check-node" "1.88.0"
     "@jsii/spec" "^1.88.0"
@@ -5601,12 +5601,12 @@ jsii@1.89.0:
     yargs "^16.2.0"
 
 jsii@^5:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.2.2.tgz#976cf303a6e08b7d5b733767443b4ae9d6bae359"
-  integrity sha512-0GufgQqaSSt/cLoMeNSP/Xw7xYIGis5KP8nfGRVP04zVJQ/BUXChxwCfG4LaYN2roxixIPAzdO4fj6W8lv7v3g==
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.2.11.tgz#52821745c79585664ed35e97e291eb9c56953d75"
+  integrity sha512-HbEgIrWuGswoxgRaKOTOp4m6FPnrL6gpBAc3j78hhPo1k9MCxydiQQAKm73eCRYCwt9/zPBms8O+3Vd6Bi1kRQ==
   dependencies:
-    "@jsii/check-node" "1.88.0"
-    "@jsii/spec" "^1.88.0"
+    "@jsii/check-node" "1.89.0"
+    "@jsii/spec" "^1.89.0"
     case "^1.6.3"
     chalk "^4"
     downlevel-dts "^0.11.0"
@@ -7990,10 +7990,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript@^5.1.6, typescript@~5.1.6:
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.1.6.tgz#02f8ac202b6dad2c0dd5e0913745b47a37998274"
-  integrity sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==
+typescript@^5.2.2, typescript@~5.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
+  integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
 
 typescript@next:
   version "5.3.0-dev.20231003"
@@ -8005,10 +8005,10 @@ typescript@~3.9.10:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
   integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
-typescript@~5.2:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
-  integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
+typescript@~5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.1.6.tgz#02f8ac202b6dad2c0dd5e0913745b47a37998274"
+  integrity sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==
 
 uglify-js@^3.1.4:
   version "3.17.4"
@@ -8321,12 +8321,7 @@ workerpool@^6.4.0:
   resolved "https://registry.yarnpkg.com/workerpool/-/workerpool-6.4.0.tgz#f8d5cfb45fde32fa3b7af72ad617c3369567a462"
   integrity sha512-i3KR1mQMNwY2wx20ozq2EjISGtQWDIfV56We+yGJ5yDs8jTwQiLLaqHlkBHITlCuJnYlVRmXegxFxZg7gqI++A==
 
-workerpool@^6.4.2:
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/workerpool/-/workerpool-6.4.2.tgz#5d086f6fef89adbc4300ca24fcafb7082330e960"
-  integrity sha512-MrDWwemtC4xNV22kbbZDQQQmxNX+yLm790sgYl2wVD3CWnK7LJY1youI/11wHorAjHjK+GEjUxUh74XoPU71uQ==
-
-workerpool@^6.5.0:
+workerpool@^6.4.2, workerpool@^6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/workerpool/-/workerpool-6.5.0.tgz#f8474762c5e2f81646994aa113685f6c424a2416"
   integrity sha512-r64Ea3glXY2RVzMeNxB+4J+0YHAVzUdV4cM5nHi4BBC2LvnO1pWFAIYKYuGcPElbg1/7eEiaPtZ/jzCjIUuGBg==
