@@ -73,9 +73,9 @@
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.99.1",
-    "cdk8s": "^2.66.4",
-    "constructs": "^10.2.70"
+    "aws-cdk-lib": "^2.100.0",
+    "cdk8s": "^2.66.8",
+    "constructs": "^10.3.0"
   },
   "dependencies": {
     "@aws-sdk/client-cloudformation": "^3.423.0"
