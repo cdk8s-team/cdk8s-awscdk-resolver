@@ -323,10 +323,7 @@
       },
       "steps": [
         {
-          "exec": "yarn upgrade npm-check-updates"
-        },
-        {
-          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev --filter=jsii,jsii-docgen,jsii-pacmak,jsii-rosetta,typescript"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev --filter=jsii,jsii-docgen,jsii-pacmak,jsii-rosetta,typescript"
         },
         {
           "exec": "yarn install --check-files"
@@ -350,10 +347,7 @@
       },
       "steps": [
         {
-          "exec": "yarn upgrade npm-check-updates"
-        },
-        {
-          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=projen,@cdk8s/projen-common"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=projen,@cdk8s/projen-common"
         },
         {
           "exec": "yarn install --check-files"
@@ -377,16 +371,13 @@
       },
       "steps": [
         {
-          "exec": "yarn upgrade npm-check-updates"
-        },
-        {
-          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev --filter=@types/fs-extra,@types/jest,@types/node,@typescript-eslint/eslint-plugin,@typescript-eslint/parser,aws-cdk,cdk8s-cli,constructs,eslint-import-resolver-typescript,eslint-plugin-import,eslint,fs-extra,jest,jest-junit,jsii-diff,npm-check-updates,standard-version,ts-jest,ts-node,@aws-sdk/client-cloudformation"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev --filter=@types/fs-extra,@types/jest,@types/node,@typescript-eslint/eslint-plugin,@typescript-eslint/parser,aws-cdk,cdk8s-cli,constructs,eslint-import-resolver-typescript,eslint-plugin-import,eslint,fs-extra,jest,jest-junit,jsii-diff,standard-version,ts-jest,ts-node,@aws-sdk/client-cloudformation"
         },
         {
           "exec": "yarn install --check-files"
         },
         {
-          "exec": "yarn upgrade @types/fs-extra @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser aws-cdk cdk8s-cli constructs eslint-import-resolver-typescript eslint-plugin-import eslint fs-extra jest jest-junit jsii-diff npm-check-updates standard-version ts-jest ts-node @aws-sdk/client-cloudformation"
+          "exec": "yarn upgrade @types/fs-extra @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser aws-cdk cdk8s-cli constructs eslint-import-resolver-typescript eslint-plugin-import eslint fs-extra jest jest-junit jsii-diff standard-version ts-jest ts-node @aws-sdk/client-cloudformation"
         },
         {
           "exec": "npx projen"
@@ -404,10 +395,7 @@
       },
       "steps": [
         {
-          "exec": "yarn upgrade npm-check-updates"
-        },
-        {
-          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=peer,prod,optional --filter=aws-cdk-lib,cdk8s,constructs"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=peer,prod,optional --filter=aws-cdk-lib,cdk8s,constructs"
         },
         {
           "exec": "yarn install --check-files"
