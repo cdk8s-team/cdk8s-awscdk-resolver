@@ -1258,14 +1258,14 @@
     "@smithy/types" "^2.7.0"
     tslib "^2.5.0"
 
-"@smithy/config-resolver@^2.0.21":
-  version "2.0.21"
-  resolved "https://registry.yarnpkg.com/@smithy/config-resolver/-/config-resolver-2.0.21.tgz#97cb1c71f3c8c453fb01169545f98414b3414d7f"
-  integrity sha512-rlLIGT+BeqjnA6C2FWumPRJS1UW07iU5ZxDHtFuyam4W65gIaOFMjkB90ofKCIh+0mLVQrQFrl/VLtQT/6FWTA==
+"@smithy/config-resolver@^2.0.21", "@smithy/config-resolver@^2.0.22":
+  version "2.0.22"
+  resolved "https://registry.yarnpkg.com/@smithy/config-resolver/-/config-resolver-2.0.22.tgz#c994a7d09d3c6f9e9a97a029db2ae16a8fbb0838"
+  integrity sha512-YuPjsLnq6I5ZQBTx6BL5NsCLtcLel5YIMf3gDeEa+GSCXn5mgRXm+8XO8HtjR3Xf69b88aY4c7bwKQQS2i8vtA==
   dependencies:
     "@smithy/node-config-provider" "^2.1.8"
     "@smithy/types" "^2.7.0"
-    "@smithy/util-config-provider" "^2.0.0"
+    "@smithy/util-config-provider" "^2.1.0"
     "@smithy/util-middleware" "^2.0.8"
     tslib "^2.5.0"
 
@@ -1534,10 +1534,10 @@
     "@smithy/is-array-buffer" "^2.0.0"
     tslib "^2.5.0"
 
-"@smithy/util-config-provider@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@smithy/util-config-provider/-/util-config-provider-2.0.0.tgz#4dd6a793605559d94267312fd06d0f58784b4c38"
-  integrity sha512-xCQ6UapcIWKxXHEU4Mcs2s7LcFQRiU3XEluM2WcCjjBtQkUN71Tb+ydGmJFPxMUrW/GWMgQEEGipLym4XG0jZg==
+"@smithy/util-config-provider@^2.0.0", "@smithy/util-config-provider@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@smithy/util-config-provider/-/util-config-provider-2.1.0.tgz#c733a862892772aaeb373a3e8af5182556da0ef9"
+  integrity sha512-S6V0JvvhQgFSGLcJeT1CBsaTR03MM8qTuxMH9WPCCddlSo2W0V5jIHimHtIQALMLEDPGQ0ROSRr/dU0O+mxiQg==
   dependencies:
     tslib "^2.5.0"
 
@@ -1553,11 +1553,11 @@
     tslib "^2.5.0"
 
 "@smithy/util-defaults-mode-node@^2.0.30":
-  version "2.0.30"
-  resolved "https://registry.yarnpkg.com/@smithy/util-defaults-mode-node/-/util-defaults-mode-node-2.0.30.tgz#12c4c737a9f8b151cfbd951348cdf94febd083dd"
-  integrity sha512-nmcmEyRlClNprp7mBnUzfmW6HrKQK+yvl+cyXCRUoQSxRvZuLDrztV+JD+zr3qV/oirEc4Q0QNIrrhTDCE6JeA==
+  version "2.0.31"
+  resolved "https://registry.yarnpkg.com/@smithy/util-defaults-mode-node/-/util-defaults-mode-node-2.0.31.tgz#1b7dc36f695375cead8e8fa7de5e90c8bfcd0df8"
+  integrity sha512-ZwdjAJAFkkQQ4hdE8HOcxFAWC3GPFXQ3yQ8IBwHH5nQBlr9q+p5eRQ7Y8iRRORJe4vksR+NASRXZ+E81Us1aXQ==
   dependencies:
-    "@smithy/config-resolver" "^2.0.21"
+    "@smithy/config-resolver" "^2.0.22"
     "@smithy/credential-provider-imds" "^2.1.4"
     "@smithy/node-config-provider" "^2.1.8"
     "@smithy/property-provider" "^2.0.16"
@@ -2422,10 +2422,10 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk8s-cli@^2.198.21:
-  version "2.198.21"
-  resolved "https://registry.yarnpkg.com/cdk8s-cli/-/cdk8s-cli-2.198.21.tgz#63b50bfaed072dd37e9629d92ee03c43d6b5058a"
-  integrity sha512-oWwVdgmDjpXgfW2aTyXE4DOj1iwxDtQNWSqVOh6mgBWxYiSD90wCnNlvXQVOWyLbepbRAkOnUgK13Oh1GOw9/g==
+cdk8s-cli@^2.198.22:
+  version "2.198.22"
+  resolved "https://registry.yarnpkg.com/cdk8s-cli/-/cdk8s-cli-2.198.22.tgz#876ca6762732a40c3f3726f8c3e20a28a3dede42"
+  integrity sha512-W7gdlgnu9HY/2VcWKxZU8qGlb9uaUultHNDbjgOlxta+PgYohz3X2drpCWxPRSss19uKEp9Wi6KotvtY8rMLZA==
   dependencies:
     "@types/node" "^16"
     ajv "^8.12.0"
