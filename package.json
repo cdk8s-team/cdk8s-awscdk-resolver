@@ -51,7 +51,7 @@
     "aws-cdk": "^2.128.0",
     "aws-cdk-lib": "2.109.0",
     "cdk8s": "2.68.4",
-    "cdk8s-cli": "^2.198.53",
+    "cdk8s-cli": "^2.198.54",
     "constructs": "10.3.0",
     "eslint": "^8",
     "eslint-import-resolver-typescript": "^3.6.1",
