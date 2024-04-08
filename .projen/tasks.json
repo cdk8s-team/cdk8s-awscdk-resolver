@@ -396,7 +396,19 @@
       },
       "steps": [
         {
-          "exec": "echo No dependencies to upgrade."
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=prod,optional --filter=@aws-sdk/client-cloudformation"
+        },
+        {
+          "exec": "yarn install --check-files"
+        },
+        {
+          "exec": "yarn upgrade @aws-sdk/client-cloudformation"
+        },
+        {
+          "exec": "npx projen"
+        },
+        {
+          "spawn": "post-upgrade"
         }
       ]
     },
