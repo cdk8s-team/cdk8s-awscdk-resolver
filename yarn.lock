@@ -76,7 +76,7 @@
     "@aws-sdk/util-utf8-browser" "^3.0.0"
     tslib "^1.11.1"
 
-"@aws-sdk/client-cloudformation@^3.423.0":
+"@aws-sdk/client-cloudformation@^3.549.0":
   version "3.549.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.549.0.tgz#e58cf3f1bcf9fef4c1109aa5a9ce18e0c7408ecc"
   integrity sha512-mEJUP2guSOdku5/+LIiKwAA9WE+nHKEtKPGOyOL0x72lkZCsfM3QSr35Xi6p1Aip3XB/LI+UCuoYpjiaceSpSw==
