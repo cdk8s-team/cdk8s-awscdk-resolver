@@ -42,10 +42,10 @@
     "organization": false
   },
   "devDependencies": {
-    "@cdk8s/projen-common": "0.0.515",
+    "@cdk8s/projen-common": "0.0.516",
     "@types/fs-extra": "^11.0.4",
     "@types/jest": "^27",
-    "@types/node": "^16",
+    "@types/node": "16.18.78",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
     "aws-cdk": "^2.137.0",
