@@ -2107,10 +2107,10 @@ aws-cdk-lib@2.109.0:
     table "^6.8.1"
     yaml "1.10.2"
 
-aws-cdk@^2.139.1:
-  version "2.139.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.139.1.tgz#aaf061ab83492a368859fc06d7276cd7ab82f8f6"
-  integrity sha512-EKnhoF02puYbZFKmj3oZrzOKIi3nplH6pOfg0h0ICUBBg5wY45C8nDqTUm34YGcgQS42mLywnPn4BW9HO7aKWw==
+aws-cdk@^2.140.0:
+  version "2.140.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.140.0.tgz#8e6284dbb229bdb8ba4a6f525dff8cbb95b08443"
+  integrity sha512-5NzmXFqjGYiTFZ+jgWBQJvrjhMIlYMoNTOwgvzHj2YnP9LhEsr60IdRGiXYD9CZyR79Hr3VQNbjcgO35bvW9/w==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -4882,7 +4882,7 @@ jsii-reflect@^1.89.0, jsii-reflect@^1.98.0:
     oo-ascii-tree "^1.98.0"
     yargs "^16.2.0"
 
-jsii-rosetta@^5:
+jsii-rosetta@^5, jsii-rosetta@^5.4.10:
   version "5.4.10"
   resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.4.10.tgz#f1077ad6322235548609c604b5644d610583541c"
   integrity sha512-PMY7ajhvX8hiHBq7xqydV9jALktwEYOhgAwAe8E9jaYHpEUz/21MwaqU+Q6sjXOtVGnvJXZacvPrVMoW7gnbKQ==
@@ -4902,15 +4902,16 @@ jsii-rosetta@^5:
     yargs "^17.7.2"
 
 jsii-srcmak@^0.1.1108:
-  version "0.1.1109"
-  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.1109.tgz#c93cba75505e5bba231b8f231c03976d83a16741"
-  integrity sha512-8/icCYB2fN5GUht+txPKXI5ho363Ftqy6y6dj0hOcXQz6Q5TyE0TF1oar6vhmdz8mCudtEz3BQJlZC5r1YNsjA==
+  version "0.1.1111"
+  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.1111.tgz#dc9fc4167f96320b2a49ef03004101ef0ea464df"
+  integrity sha512-uOExR9y2MTEd6cSBdi77LK6Ijp1cYWOJ5qDmH9lToAvE5ilgxcltIO8hJw5+dJiUEhXXQt04ovRP+SoglybJyA==
   dependencies:
     fs-extra "^9.1.0"
     jsii "~5.4.9"
-    jsii-pacmak "^1.97.0"
+    jsii-pacmak "^1.98.0"
+    jsii-rosetta "^5.4.10"
     ncp "^2.0.0"
-    yargs "^15.4.1"
+    yargs "^17.7.2"
 
 jsii@^5, jsii@~5.4.0, jsii@~5.4.9:
   version "5.4.9"
@@ -7094,7 +7095,7 @@ yargs-parser@^21.0.1, yargs-parser@^21.1.1:
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.1.tgz#9096bceebf990d21bb31fa9516e0ede294a77d35"
   integrity sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==
 
-yargs@^15, yargs@^15.4.1:
+yargs@^15:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
   integrity sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
