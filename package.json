@@ -51,7 +51,7 @@
     "aws-cdk": "^2.151.0",
     "aws-cdk-lib": "2.109.0",
     "cdk8s": "2.68.91",
-    "cdk8s-cli": "^2.198.179",
+    "cdk8s-cli": "^2.198.180",
     "constructs": "10.3.0",
     "eslint": "^8",
     "eslint-import-resolver-typescript": "^3.6.1",
@@ -76,7 +76,7 @@
     "constructs": "^10.3.0"
   },
   "dependencies": {
-    "@aws-sdk/client-cloudformation": "^3.623.0"
+    "@aws-sdk/client-cloudformation": "^3.624.0"
   },
   "bundledDependencies": [
     "@aws-sdk/client-cloudformation"
