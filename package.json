@@ -76,7 +76,7 @@
     "constructs": "^10.3.0"
   },
   "dependencies": {
-    "@aws-sdk/client-cloudformation": "^3.654.0"
+    "@aws-sdk/client-cloudformation": "^3.658.0"
   },
   "bundledDependencies": [
     "@aws-sdk/client-cloudformation"
