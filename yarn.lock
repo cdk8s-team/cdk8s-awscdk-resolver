@@ -63,10 +63,10 @@
     "@smithy/util-utf8" "^2.0.0"
     tslib "^2.6.2"
 
-"@aws-sdk/client-cloudformation@^3.670.0":
-  version "3.670.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.670.0.tgz#de7ee5e2b456ebb58ed1ca9c112a5af167d20122"
-  integrity sha512-ERGWLyHijj3e1j6uuTj4zky//JUnxgklnmzNL8eqDUDDkLAcPaxgnoR47JiT2Kzpmsb+47Qqq2NFwaSmTw5S5A==
+"@aws-sdk/client-cloudformation@^3.672.0":
+  version "3.672.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.672.0.tgz#6780d3ab8139449e4ef8b850cabd3b265a331c89"
+  integrity sha512-PsQ+Qg/3fGz7oI+zrN+kBGkpGrZ20tWCA/sUqyfDIroBFpmQ1YqxeQT4mFD7u57QB42Pbhm2k15+lH4j8hdTPQ==
   dependencies:
     "@aws-crypto/sha256-browser" "5.2.0"
     "@aws-crypto/sha256-js" "5.2.0"
@@ -6274,10 +6274,15 @@ tsconfig-paths@^3.15.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^2.0.3, tslib@^2.6.2:
+tslib@^2.0.3:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.7.0.tgz#d9b40c5c40ab59e8738f297df3087bf1a2690c01"
   integrity sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==
+
+tslib@^2.6.2:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.0.tgz#d124c86c3c05a40a91e6fdea4021bd31d377971b"
+  integrity sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
