@@ -48,7 +48,7 @@
     "@types/node": "16.18.78",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
-    "aws-cdk": "^2.163.0",
+    "aws-cdk": "^2.163.1",
     "aws-cdk-lib": "2.109.0",
     "cdk8s": "2.68.91",
     "cdk8s-cli": "^2.198.253",
