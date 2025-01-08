@@ -2101,10 +2101,10 @@ aws-cdk-lib@2.109.0:
     table "^6.8.1"
     yaml "1.10.2"
 
-aws-cdk@^2.174.0:
-  version "2.174.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.174.0.tgz#7e05ff30ce112fc2ff08a099b60c467b6741e84c"
-  integrity sha512-RN9Y/+MBht0xBwFVKSOwEGBSf/8Q31zwZmRkH9psWHpW24NbB9/frICRqIiWFqiedlNdLdjYkcwP2U4V6Ud6AQ==
+aws-cdk@^2.174.1:
+  version "2.174.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.174.1.tgz#9463bb357df8059293937ac75d471eff0b6e753d"
+  integrity sha512-wwInII0MDcql7DuEn7C0/2wcGkCIIxOkOpn3BGgsw+RsjvYtX2jnlbZE3RSrH9EvIeaB1QeZfilNzex9eSk04w==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -2298,14 +2298,14 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk8s-cli@^2.198.292:
-  version "2.198.292"
-  resolved "https://registry.yarnpkg.com/cdk8s-cli/-/cdk8s-cli-2.198.292.tgz#84a8489db4013d84709719563b7714764e4b4494"
-  integrity sha512-ae2g0d7P0gpguXbD4ue2cO51cWssddpNzG0JJdHeSvP07xNaJUeaib6aB6ocnKjiAsrzle5fTQsK0GTZOyTOJw==
+cdk8s-cli@^2.198.294:
+  version "2.198.294"
+  resolved "https://registry.yarnpkg.com/cdk8s-cli/-/cdk8s-cli-2.198.294.tgz#7964f8a11bee3e28b118fdf45505a3de19e83291"
+  integrity sha512-jlt4TpigeyIMq/i18MsoJxSGZFSWnKJjmQtpZ865pOcSiGnDOtI8crsD1ov3z41RhgKsdIHEyKUhE5N8wcxspQ==
   dependencies:
     "@types/node" "^16"
     ajv "^8.17.1"
-    cdk8s "^2.69.28"
+    cdk8s "^2.69.32"
     cdk8s-plus-28 "^2.5.6"
     codemaker "^1.106.0"
     colors "1.4.0"
@@ -2318,7 +2318,7 @@ cdk8s-cli@^2.198.292:
     semver "^7.6.3"
     sscaff "^1.2.274"
     table "^6.9.0"
-    yaml "2.6.1"
+    yaml "2.7.0"
     yargs "^15"
 
 cdk8s-plus-28@^2.5.6:
@@ -2337,10 +2337,10 @@ cdk8s@2.68.91:
     follow-redirects "^1.15.6"
     yaml "2.5.0"
 
-cdk8s@^2.69.28:
-  version "2.69.31"
-  resolved "https://registry.yarnpkg.com/cdk8s/-/cdk8s-2.69.31.tgz#e6830d60f80ccfdc5a59935db7dc0d41e85241fe"
-  integrity sha512-6HAdtcZfmqLBg/1HbMYkI1NB7aLrThStf/DfuMZ3zNvEMgjdoeG05/GvH0pmhds092sZ9vT2IOH0be2smzloug==
+cdk8s@^2.69.32:
+  version "2.69.32"
+  resolved "https://registry.yarnpkg.com/cdk8s/-/cdk8s-2.69.32.tgz#95a10914d3c9f7f5aec78d0b3ebdcd74260be9e5"
+  integrity sha512-moinwbF/6QcSm/z2h0jD0QvCFm53GVp87YdaNRdKo8BEPHdnJzAQJ0g2hvQVihyBPt8bG9KXGaAKRWs5fczJ2w==
   dependencies:
     fast-json-patch "^3.1.1"
     follow-redirects "^1.15.9"
@@ -2952,9 +2952,9 @@ dunder-proto@^1.0.0, dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.73:
-  version "1.5.78"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.78.tgz#223cdc76a5d15ac731136e68430e92cb8d612d13"
-  integrity sha512-UmwIt7HRKN1rsJfddG5UG7rCTCTAKoS9JeOy/R0zSenAyaZ8SU3RuXlwcratxhdxGRNpk03iq8O7BA3W7ibLVw==
+  version "1.5.79"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.79.tgz#4424f23f319db7a653cf9ee76102e4ac283e6b3e"
+  integrity sha512-nYOxJNxQ9Om4EC88BE4pPoNI8xwSFf8pU/BAeOl4Hh/b/i6V4biTAzwV7pXi3ARKeoYO5JZKMIXTryXSVer5RA==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -6946,11 +6946,6 @@ yaml@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.5.0.tgz#c6165a721cf8000e91c36490a41d7be25176cf5d"
   integrity sha512-2wWLbGbYDiSqqIKoPjar3MPgB94ErzCtrNE1FdqGuaO0pi2JGjmE8aW8TDZwzU7vuxcGRdL/4gPQwQ7hD5AMSw==
-
-yaml@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.6.1.tgz#42f2b1ba89203f374609572d5349fb8686500773"
-  integrity sha512-7r0XPzioN/Q9kXBro/XPnA6kznR73DHq+GXh5ON7ZozRO6aMjbmiBuKste2wslTFkC5d1dw0GooOCepZXJ2SAg==
 
 yaml@2.7.0, yaml@^2.2.2, yaml@^2.4.1:
   version "2.7.0"
