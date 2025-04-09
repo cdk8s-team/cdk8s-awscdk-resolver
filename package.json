@@ -50,7 +50,7 @@
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
     "aws-cdk": "^2.1007.0",
-    "aws-cdk-lib": "2.177.0",
+    "aws-cdk-lib": "2.187.0",
     "cdk8s": "2.68.91",
     "cdk8s-cli": "^2.200.38",
     "commit-and-tag-version": "^12",
