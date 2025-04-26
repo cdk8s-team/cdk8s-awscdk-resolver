@@ -52,7 +52,7 @@
     "aws-cdk": "^2.1012.0",
     "aws-cdk-lib": "2.177.0",
     "cdk8s": "2.68.91",
-    "cdk8s-cli": "^2.200.52",
+    "cdk8s-cli": "^2.200.53",
     "commit-and-tag-version": "^12",
     "constructs": "10.3.0",
     "eslint": "^9",
