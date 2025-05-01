@@ -82,7 +82,7 @@
     "@smithy/util-utf8" "^2.0.0"
     tslib "^2.6.2"
 
-"@aws-sdk/client-cloudformation@^3.797.0":
+"@aws-sdk/client-cloudformation@^3.799.0":
   version "3.799.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.799.0.tgz#2dce262cab42d124127012bed44ea23681a55bcf"
   integrity sha512-atV3CHwc42Nv+y9uL4pJEJyvHTmzM6F+Emq1lD6mc748B514cavwzijsZTbg4YvihIQTvNxNuSFkCyuXY4NTGw==
