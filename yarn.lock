@@ -2279,10 +2279,10 @@ aws-cdk-lib@2.195.0:
     table "^6.9.0"
     yaml "1.10.2"
 
-aws-cdk@^2.1022.0:
-  version "2.1022.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1022.0.tgz#61221c72c8eedd19dc41f966e657c931037a88af"
-  integrity sha512-GHCu+tDtYMqCiElCl7Fad2/Bt2GmtXEV3dynudoAsV9PlL5ETeLmEN7jflDQxhmr7KhKpQeZJo/PM0DoWCvoHw==
+aws-cdk@^2.1023.0:
+  version "2.1023.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1023.0.tgz#bc82e4a919960c79fc0e11c3e831e83a99c0dc97"
+  integrity sha512-DWMA+IrAsBUNF2RvH7ujpDp7wSJkqTkRL8yfK4AYpEjoGY1KMaKIfxz3M3+Nk3ogM7VhZiW3OGWEOgyDF47HOQ==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -2476,10 +2476,10 @@ case@1.6.3, case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk8s-cli@^2.200.144:
-  version "2.200.144"
-  resolved "https://registry.yarnpkg.com/cdk8s-cli/-/cdk8s-cli-2.200.144.tgz#ac04298cf09acb7de6f61be8ac499b3f540b49b6"
-  integrity sha512-yv6hGY68KoUFNl8ssGciqjTBrFLClB1M3lP49vllmn29dLnBuEFk+NN9N4KsgraGWyeMS0doco7tVxOS7vGwoA==
+cdk8s-cli@^2.200.145:
+  version "2.200.145"
+  resolved "https://registry.yarnpkg.com/cdk8s-cli/-/cdk8s-cli-2.200.145.tgz#10d0f2e458a01daaa8bfc95f4d13c4a2ad8973ff"
+  integrity sha512-wAWJpgOt5hqDiYnJ01xKJsI0Asxymmbp/gkC3MKrpuG0YvY98JxyNCFnv2jQ1ikso4M15MLF9eYp6eUy34pIiA==
   dependencies:
     "@types/node" "^16"
     ajv "^8.17.1"
