@@ -2379,9 +2379,9 @@ baseline-browser-mapping@^2.8.25:
   integrity sha512-aTUKW4ptQhS64+v2d6IkPzymEzzhw+G0bA1g3uBRV3+ntkH+svttKseW5IOR4Ed6NUVKqnY7qT3dKvzQ7io4AA==
 
 bowser@^2.11.0:
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.12.1.tgz#f9ad78d7aebc472feb63dd9635e3ce2337e0e2c1"
-  integrity sha512-z4rE2Gxh7tvshQ4hluIT7XcFrgLIQaw9X3A+kTTRdovCz5PMukm/0QC/BKSYPj3omF5Qfypn9O/c5kgpmvYUCw==
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.13.0.tgz#4b33ae4c9819f16ff8bc0c3ba81dd9c0b3ef8cfc"
+  integrity sha512-yHAbSRuT6LTeKi6k2aS40csueHqgAsFEgmrOsfRyFpJnFv5O2hl9FYmWEUZ97gZ/dG17U4IQQcTx4YAFYPuWRQ==
 
 brace-expansion@^1.1.7:
   version "1.1.12"
