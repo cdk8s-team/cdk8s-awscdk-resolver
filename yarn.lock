@@ -681,10 +681,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cdk8s/projen-common@0.0.684":
-  version "0.0.684"
-  resolved "https://registry.yarnpkg.com/@cdk8s/projen-common/-/projen-common-0.0.684.tgz#080d5d06bedec410043eca437df852f81837b13d"
-  integrity sha512-pgH5iJDX63b7WKz+vLyqJmkIEpcrTbv5VXiSAPXIqg59q3jrZGKBfW5AWhySHe3SO/94r9XMxAYPeJltnTOwIA==
+"@cdk8s/projen-common@0.0.685":
+  version "0.0.685"
+  resolved "https://registry.yarnpkg.com/@cdk8s/projen-common/-/projen-common-0.0.685.tgz#1e6780cbab0d30464baac51f8d0d3804c4411cfb"
+  integrity sha512-/XGm69B8YqtYom4M0ld+BTHmssjs8Kh9wKKCdnVyixhjmxg0MV9BbtqYjJXzykhkxQfmrLzMSGOiAtGEgiEtxg==
   dependencies:
     codemaker "^1.128.0"
     deepmerge "^4.3.1"
@@ -3907,9 +3907,9 @@ has-tostringtag@^1.0.2:
     has-symbols "^1.0.3"
 
 hasown@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/hasown/-/hasown-2.0.2.tgz#003eaf91be7adc372e84ec59dc37252cedb80003"
-  integrity sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/hasown/-/hasown-2.0.3.tgz#5e5c2b15b60370a4c7930c383dfb76bf17bc403c"
+  integrity sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg==
   dependencies:
     function-bind "^1.1.2"
 
