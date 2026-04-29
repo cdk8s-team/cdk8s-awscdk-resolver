@@ -1316,9 +1316,9 @@
     tslib "^2.6.2"
 
 "@smithy/middleware-retry@^4.5.6":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@smithy/middleware-retry/-/middleware-retry-4.5.6.tgz#8f3857c2e654a03a8aaccf8b267aa4d9c2ad1046"
-  integrity sha512-5zhmo2AkstmM/RMKYP0NHfmuYWBR+/umlmSuALgajLxf0X0rLE6d17MfzTxpzkILWVhwvCJkCyPH0AfMlbaucQ==
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@smithy/middleware-retry/-/middleware-retry-4.5.7.tgz#a2da0c472d631ee408ff566186c99571b3efb70b"
+  integrity sha512-bRt6ZImqVSeTk39Nm81K20ObIiAZ3WefY7G6+iz/0tZjs4dgRRjvRX2sgsH+zi6iDCRR/aQvQofLKxxz4rPBZg==
   dependencies:
     "@smithy/core" "^3.23.17"
     "@smithy/node-config-provider" "^4.3.14"
@@ -1327,7 +1327,7 @@
     "@smithy/smithy-client" "^4.12.13"
     "@smithy/types" "^4.14.1"
     "@smithy/util-middleware" "^4.2.14"
-    "@smithy/util-retry" "^4.3.5"
+    "@smithy/util-retry" "^4.3.6"
     "@smithy/uuid" "^1.1.2"
     tslib "^2.6.2"
 
@@ -1553,10 +1553,10 @@
     "@smithy/types" "^4.14.1"
     tslib "^2.6.2"
 
-"@smithy/util-retry@^4.3.5":
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/@smithy/util-retry/-/util-retry-4.3.5.tgz#7ca07446905188bbbe7f0bbd171cc7682f461103"
-  integrity sha512-h1IJsbgMDA+jaTjrco/JsyfWOgHRJBv8myB1y4AEI2fjIzD6ktZ7pFAyTw+gwN9GKIAygvC6db0mq0j8N2rFOg==
+"@smithy/util-retry@^4.3.5", "@smithy/util-retry@^4.3.6":
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/@smithy/util-retry/-/util-retry-4.3.6.tgz#8d242d7e736593ca3f1c0f056279909b881d6e2a"
+  integrity sha512-p6/FO1n2KxMeQyna067i0uJ6TSbb165ZhnRtCpWh4Foxqbfc6oW+XITaL8QkFJj3KFnDe2URt4gOhgU06EP9ew==
   dependencies:
     "@smithy/service-error-classification" "^4.3.1"
     "@smithy/types" "^4.14.1"
