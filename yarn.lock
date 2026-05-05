@@ -58,10 +58,10 @@
     "@smithy/util-utf8" "^2.0.0"
     tslib "^2.6.2"
 
-"@aws-sdk/client-cloudformation@^3.1041.0":
-  version "3.1041.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1041.0.tgz#0a4b09d93578329f3af0f5b173e506f68695e0c5"
-  integrity sha512-rO9yo34SAR7vNw1V97SY5V7J6oo13FPShhn5NN2vFxiOIx4hjJ74OYDatQ2RBLVO7ER1eyjLnxVNrbpxDQFM0A==
+"@aws-sdk/client-cloudformation@^3.1042.0":
+  version "3.1042.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1042.0.tgz#bcbda4bc868b99834424c96c50e52f044d03fb3b"
+  integrity sha512-Eprmw8+6w7peApOwyyehK6OAvHFEFfCgmCdd4CeR1kUEubIJNgnXHDAC5B+OBt3NNgzvLtKstACdo7I/CcrlSA==
   dependencies:
     "@aws-crypto/sha256-browser" "5.2.0"
     "@aws-crypto/sha256-js" "5.2.0"
@@ -3509,9 +3509,9 @@ fast-uri@^3.0.1:
   integrity sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==
 
 fast-xml-builder@^1.1.5:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/fast-xml-builder/-/fast-xml-builder-1.1.7.tgz#b445dfa48d5e7636a50d7ff39c7f4254552bfdff"
-  integrity sha512-Yh7/7rQuMXICNr0oMYDR2yHP6oUvmQsTToFeOWj/kIDhAwQ+c4Ol/lbcwOmEM5OHYQmh6S6EQSQ1sljCKP36bQ==
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/fast-xml-builder/-/fast-xml-builder-1.1.8.tgz#7bbc0c3957587f3c44d13c10fa1fdf8d4bcc328b"
+  integrity sha512-sDVBc2gg8pSKvcbE8rBmOyjSGQf0AdsbqvHeIOv3D/uYNoV4eCReQXyDF8Pdv8+m1FHazACypSz2hR7O2S1LLw==
   dependencies:
     path-expression-matcher "^1.1.3"
 
