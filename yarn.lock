@@ -58,10 +58,10 @@
     "@smithy/util-utf8" "^2.0.0"
     tslib "^2.6.2"
 
-"@aws-sdk/client-cloudformation@^3.1044.0":
-  version "3.1044.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1044.0.tgz#c45f6ad7136931a60cf8d3d2392bdb395a7ac54c"
-  integrity sha512-2EFBp9dmQchKzfMozPYj6EO4iaauoWtYwmsK6k7Yv4jXumBRJKS7KWPbZ2pkpklFAG+OLMHPTEbIRL7ZDKPJWg==
+"@aws-sdk/client-cloudformation@^3.1045.0":
+  version "3.1045.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1045.0.tgz#d94d6e92a666d4c37c13a5b5a08bc744d4b6a90a"
+  integrity sha512-hzBG9sMPcldMEdZn2mc/PmE9RreQ8vtY5mk7sR8ntLK/G/vQyknoD1wp7EmhozRF79m43LpUBs28ahCuTXorpw==
   dependencies:
     "@aws-crypto/sha256-browser" "5.2.0"
     "@aws-crypto/sha256-js" "5.2.0"
@@ -6468,9 +6468,9 @@ strip-json-comments@^3.1.1:
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
 strnum@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/strnum/-/strnum-2.2.3.tgz#0119fce02749a11bb126a4d686ac5dbdf6e57586"
-  integrity sha512-oKx6RUCuHfT3oyVjtnrmn19H1SiCqgJSg+54XqURKp5aCMbrXrhLjRN9TjuwMjiYstZ0MzDrHqkGZ5dFTKd+zg==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/strnum/-/strnum-2.3.0.tgz#81bfbfef53db8c3217ea62a98c026886ec4a2761"
+  integrity sha512-ums3KNd42PGyx5xaoVTO1mjU1bH3NpY4vsrVlnv9PNGqQj8wd7rJ6nEypLrJ7z5vxK5RP0yMLo6J/Gsm62DI5Q==
 
 supports-color@^5.3.0:
   version "5.5.0"
