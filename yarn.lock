@@ -67,10 +67,10 @@
     "@smithy/util-utf8" "^2.0.0"
     tslib "^2.6.2"
 
-"@aws-sdk/client-cloudformation@^3.1054.0":
-  version "3.1054.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1054.0.tgz#fe39c82fd7dd8f7ef6d7be385489e487e2fd3d88"
-  integrity sha512-l6A0w1nWsFmD4RK7zajaAFQmytKvbYkrfAdyzlmBbZ3IoqScBRU/Kx1i/ntBqqV74TIvhNuti6AnC3iVXqrusw==
+"@aws-sdk/client-cloudformation@^3.1055.0":
+  version "3.1055.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1055.0.tgz#5acd2b549231b0f893627cf2d461ff449faaab7c"
+  integrity sha512-7iwXisYLTwCwnZ7aPKaCSfbVdQJ/Y5+3Xt9TTYGrSymA1O0kGwguCEzzYz6+RvhbS7viJJmFlDsn8Fbf+sbURA==
   dependencies:
     "@aws-crypto/sha256-browser" "5.2.0"
     "@aws-crypto/sha256-js" "5.2.0"
@@ -1023,30 +1023,30 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@smithy/core@^3.24.3", "@smithy/core@^3.24.4":
-  version "3.24.4"
-  resolved "https://registry.yarnpkg.com/@smithy/core/-/core-3.24.4.tgz#aded2ba46962b5cceaaa75f646433ac4813c2e17"
-  integrity sha512-3UNRKEyQyAgVgM0LGlerCLm+ChZWZ1GPfde+jBEW6bm6bSBGU1p0EbblaUV3unbhwvidjLA5Zs3sOs7mnZwvAw==
+"@smithy/core@^3.24.3", "@smithy/core@^3.24.5":
+  version "3.24.5"
+  resolved "https://registry.yarnpkg.com/@smithy/core/-/core-3.24.5.tgz#396ca5662afc6d83a8f41b7e492e427c48a0924e"
+  integrity sha512-Kt8phUg45M15EjhYAbZ+fFikYneijLu9Liugz8ZsYz2i8j0hzGv27LWKpEHYRfvj+LyCOSijpcR/2i8RouV+cA==
   dependencies:
     "@aws-crypto/crc32" "5.2.0"
     "@smithy/types" "^4.14.2"
     tslib "^2.6.2"
 
 "@smithy/credential-provider-imds@^4.3.2":
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/@smithy/credential-provider-imds/-/credential-provider-imds-4.3.4.tgz#0ab80322b380902d404682ad8adbbcf021c657c3"
-  integrity sha512-vKW0MEFRU4Y3MkVZUkpJm+g9qyPGLCXhc0YLggUdSdBB4g7IaSSsCE75P9rBXyWHrXY1UYSQUl8/DwsTR7QciA==
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/@smithy/credential-provider-imds/-/credential-provider-imds-4.3.5.tgz#d42e9787561517d0c0d662ebe1db35eada28d1a7"
+  integrity sha512-yiF8xHpdkaTfzLVqFzsP6WvNghEK+qZzLYWFD13L2SsFhbXwBGlxdocKF95qjr7s5lE5NRage+EJFK4mAsx88Q==
   dependencies:
-    "@smithy/core" "^3.24.4"
+    "@smithy/core" "^3.24.5"
     "@smithy/types" "^4.14.2"
     tslib "^2.6.2"
 
 "@smithy/fetch-http-handler@^5.4.3":
-  version "5.4.4"
-  resolved "https://registry.yarnpkg.com/@smithy/fetch-http-handler/-/fetch-http-handler-5.4.4.tgz#df28cfdbdbd192cef9508347b488d8874d0166dd"
-  integrity sha512-qM7AUKI4G6d7lNgaZD3lA1tWSolh5r6gcixfTZAPstVURfjIbvreVTPz+994M0yC3HbX4YYhDRgr31Xy3XwWOQ==
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/@smithy/fetch-http-handler/-/fetch-http-handler-5.4.5.tgz#5087612b4cb22671c13c2b5abe96dfb6518ec9a1"
+  integrity sha512-SK3VMeH0fibgdTg2QeB+O4p7Yy/2E5HBOHJeC58FshkDdeuX8lOgO7PfjYfLyPLP1ch55j91cQqKBzDS0mRjSQ==
   dependencies:
-    "@smithy/core" "^3.24.4"
+    "@smithy/core" "^3.24.5"
     "@smithy/types" "^4.14.2"
     tslib "^2.6.2"
 
@@ -1058,20 +1058,20 @@
     tslib "^2.6.2"
 
 "@smithy/node-http-handler@^4.7.3":
-  version "4.7.4"
-  resolved "https://registry.yarnpkg.com/@smithy/node-http-handler/-/node-http-handler-4.7.4.tgz#dfa9634130841cbb0a780c8b4a3ea7ec1c904f0c"
-  integrity sha512-HIeF+1vrDGzPkkv39Hj2vlHSXHY3p958jd/8ZnePIY6+ZOsQX8coyEUKO5yQu4r0bQIVsbpotVIrXXwyycMStQ==
+  version "4.7.5"
+  resolved "https://registry.yarnpkg.com/@smithy/node-http-handler/-/node-http-handler-4.7.5.tgz#1fdb6ba04beababb54f20bfc1f74a34370fbdf51"
+  integrity sha512-3dA9TQ+ybRSZ/m0wnbZhiBy4Dezjgq1Ib/ZZrYTpJDBgpoLLU/SDzZc/g0x0MNAdOJe1wPcM+x2PBRmoOur+Sw==
   dependencies:
-    "@smithy/core" "^3.24.4"
+    "@smithy/core" "^3.24.5"
     "@smithy/types" "^4.14.2"
     tslib "^2.6.2"
 
 "@smithy/signature-v4@^5.4.2":
-  version "5.4.4"
-  resolved "https://registry.yarnpkg.com/@smithy/signature-v4/-/signature-v4-5.4.4.tgz#8302828623453d84e41210dda99f18753bb3da7e"
-  integrity sha512-e5UtkMvsatzBfbeBZjEOt0k0Z3BEsjTFL/n6fdO5vtBLe67tdy0dX7xw2DU7uZ3acwoHyeCqpU2Fzb7pxwHb6Q==
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/@smithy/signature-v4/-/signature-v4-5.4.5.tgz#61e369ce381f536f833a4c7c53afbe0175a47556"
+  integrity sha512-QBJKWGqIknH0dc9LWpfH1mkdokAx6iXYN3UcQ3eY6uIEyScuoQAhfl94ge7ozUy9WgFUdE8xsvwBjaYBbWmPNA==
   dependencies:
-    "@smithy/core" "^3.24.4"
+    "@smithy/core" "^3.24.5"
     "@smithy/types" "^4.14.2"
     tslib "^2.6.2"
 
