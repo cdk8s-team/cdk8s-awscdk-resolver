@@ -67,10 +67,10 @@
     "@smithy/util-utf8" "^2.0.0"
     tslib "^2.6.2"
 
-"@aws-sdk/client-cloudformation@^3.1066.0":
-  version "3.1066.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1066.0.tgz#083db60bfb8d282613116e4506842d75ba93f8e7"
-  integrity sha512-SQZuF/4iFaW6VEqsU/2W78x3Mp98olccKlFiQG8VsrtAc8rIMTmvhQtU5cugeOVGpOXDDuXPSyVaxmOaGafeww==
+"@aws-sdk/client-cloudformation@^3.1067.0":
+  version "3.1067.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1067.0.tgz#d7cf02c0b2a719b9274012cd8ad2ca53330c647b"
+  integrity sha512-7vqwkWQkg4hddlfUPDK6WuEZOrGts+sJ6ZcAWvRh+nWubvV7ZiJAPXvs+EPf8t4f9KfuroyOdQmZ/g6MHUrH9Q==
   dependencies:
     "@aws-crypto/sha256-browser" "5.2.0"
     "@aws-crypto/sha256-js" "5.2.0"
@@ -945,9 +945,9 @@
     "@tybys/wasm-util" "^0.10.2"
 
 "@nodable/entities@^2.1.0":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@nodable/entities/-/entities-2.1.1.tgz#ce41931e9b72606d7f0598d665e46e889285d78a"
-  integrity sha512-Pig3HxDIoMgjdEH8OCf/dkcTmLFjJRjWuq8jSnklu284/TKOPibSRERmOykiwmyXTtv61mP+44f3GMx0tLAyjg==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@nodable/entities/-/entities-2.2.0.tgz#a1d45a992b022591b1c2b03a77935c939375b642"
+  integrity sha512-9uGyhaQavEUMC8AIddIjau4NsnsXhou+j5sBAGojCM1oxmQpVKTWR/9JxABD6UAv12vpIms55fPZKFQEhG6uBg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
