@@ -67,10 +67,10 @@
     "@smithy/util-utf8" "^2.0.0"
     tslib "^2.6.2"
 
-"@aws-sdk/client-cloudformation@^3.1071.0":
-  version "3.1071.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1071.0.tgz#1acf360a2cdf2518fb32aac02248cce2a61c88e3"
-  integrity sha512-SibX2MXJzcH0SCpTCvYVWiMBI06kRHD3ZpHKT0CP445MVobdcSM+6ivBY7PdV9M71x4Y1CcuHhcl/wF2q3fHmg==
+"@aws-sdk/client-cloudformation@^3.1072.0":
+  version "3.1072.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1072.0.tgz#921623cab9c9ea51f9164979079b0437cd565b52"
+  integrity sha512-XKjrznDRQtnhQz4s7WH9/wn2tLHAvTiWLeoCi/Joaix/m90D3o6AIrTmsVwcNaOXdS+GcOdDsUq6NmKLU+lZYA==
   dependencies:
     "@aws-crypto/sha256-browser" "5.2.0"
     "@aws-crypto/sha256-js" "5.2.0"
