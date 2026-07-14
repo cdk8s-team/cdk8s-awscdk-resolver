@@ -20,13 +20,13 @@
     jsonschema "~1.4.1"
     semver "^7.7.1"
 
-"@aws-sdk/client-cloudformation@^3.1085.0":
-  version "3.1085.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1085.0.tgz#e488455961f150facc686101a1485bf44f7a23df"
-  integrity sha512-FzlmVJZYTNHR98P8x8rftIEcVmBZCG32/JBMOqjiM/+FNI4xHZwR6vpPBQSSRbPWTeRt9ngHjDLo/rz1gDwq2A==
+"@aws-sdk/client-cloudformation@^3.1086.0":
+  version "3.1086.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1086.0.tgz#43eb8e728a71e0c4483a934020e1b0a61918d553"
+  integrity sha512-TU5V6Aiot6iMoj7uqRgLZRpwsDARUoCk9aaPmLexErgdqUqRBIYszR3rfh7IZm3ZLpEdmaaA6mnou2GPR3eJoA==
   dependencies:
     "@aws-sdk/core" "^3.975.1"
-    "@aws-sdk/credential-provider-node" "^3.972.66"
+    "@aws-sdk/credential-provider-node" "^3.972.67"
     "@aws-sdk/types" "^3.974.0"
     "@smithy/core" "^3.29.2"
     "@smithy/fetch-http-handler" "^5.6.4"
@@ -103,10 +103,10 @@
     "@smithy/types" "^4.16.0"
     tslib "^2.6.2"
 
-"@aws-sdk/credential-provider-node@^3.972.66":
-  version "3.972.66"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.66.tgz#50c5c27d65aa1877bf5bf7ab5a2f8bf31b90013e"
-  integrity sha512-f+qjRXZpz7sgzbc4QB+6nLKfyKFgRRXzWdXbsKPv/VhVRyHsDyq4yBWC/B75BAJpFIcUeI2XR/3gdWJ677zB4A==
+"@aws-sdk/credential-provider-node@^3.972.67":
+  version "3.972.67"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.67.tgz#267bc4e1cf3b37ca210f40a05766dd4a12e6209b"
+  integrity sha512-oYlzWst56rlhhjbYnexwv5hVLYe1cW4liLObhDfxDLI4RAQzleMVHQgQgx7XsC4HKj4e3kjT8v9DId+Pi/dndw==
   dependencies:
     "@aws-sdk/credential-provider-env" "^3.972.57"
     "@aws-sdk/credential-provider-http" "^3.972.59"
