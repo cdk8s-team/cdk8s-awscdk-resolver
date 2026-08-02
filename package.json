@@ -50,10 +50,10 @@
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
-    "aws-cdk": "^2.1133.0",
+    "aws-cdk": "^2.1134.0",
     "aws-cdk-lib": "2.195.0",
     "cdk8s": "2.68.91",
-    "cdk8s-cli": "^2.207.41",
+    "cdk8s-cli": "^2.207.44",
     "commit-and-tag-version": "^12",
     "constructs": "10.3.0",
     "eslint": "^9",
@@ -78,7 +78,7 @@
     "constructs": "^10.3.0"
   },
   "dependencies": {
-    "@aws-sdk/client-cloudformation": "^3.1095.0"
+    "@aws-sdk/client-cloudformation": "^3.1101.0"
   },
   "bundledDependencies": [
     "@aws-sdk/client-cloudformation"
