@@ -1679,10 +1679,10 @@ aws-cdk-lib@2.195.0:
     table "^6.9.0"
     yaml "1.10.2"
 
-aws-cdk@^2.1137.0:
-  version "2.1137.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1137.0.tgz#829eef36bbcbbcdc77f30893c3ff3b8ba4693768"
-  integrity sha512-SRy2df/5cqGvq8ncph1m93rWEh3RGbvP6uwElw+W0x135vZDzTpfbuq2L8oAHwK2yDt3RNS5sb7Phwb7xqQP2g==
+aws-cdk@^2.1138.0:
+  version "2.1138.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1138.0.tgz#8f6ae41af69c199f8853d9ba2606d7eab62ebda8"
+  integrity sha512-gZ5F8rmh+qc7ZNWsbaXYoV+p7jSYynRRg70s7FAn3VmzRaSkTE31ijpQHYroxCbDEtKSzgN63ORR/WuZmvXAwA==
 
 babel-jest@^27.5.1:
   version "27.5.1"
@@ -3701,9 +3701,9 @@ is-typedarray@^1.0.0:
   integrity sha512-cyA56iCMHAh5CdzjJIa4aohJyeO1YbwLi3Jc35MmRU6poroFjIGZzUzupGiRPOjgHg9TLu43xbpwXk523fMxKA==
 
 is-unsafe@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/is-unsafe/-/is-unsafe-2.0.0.tgz#c0dce4e06742662dde26360160e414ea487da2e9"
-  integrity sha512-2LdV822R+wmI86unXA93WCFpL6g+av8ynWk0nrHyJqGop5VoocYsSLFgN8jrfalT6iGeLNM4KXuVSsULP53kEA==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/is-unsafe/-/is-unsafe-2.0.2.tgz#bb1ead17f1aa688f6433258b561e98b1a45a1afc"
+  integrity sha512-HgbIHPBH0KHHCcjLfGsCvhtPTVxjaAZlXjwdz7/GQC40SjSe4sfQsar8J5VFo8JOSbarkpV0OLG95bbaNd9aAQ==
 
 is-weakmap@^2.0.2:
   version "2.0.2"
