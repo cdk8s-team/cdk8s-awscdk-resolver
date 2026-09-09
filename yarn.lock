@@ -20,10 +20,10 @@
     jsonschema "~1.4.1"
     semver "^7.7.1"
 
-"@aws-sdk/client-cloudformation@^3.1127.0":
-  version "3.1127.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1127.0.tgz#23f1eef4b6f74e0b3ef434037685883cc9bffdf1"
-  integrity sha512-uWYCvCTWlIq5Q2WAmL0Zm1N0XjcBV2F1ayVUNXCIFOy5ldb4LxZqA6KGexSKPN+S6GE/RduCe28RkIQlbNUwxw==
+"@aws-sdk/client-cloudformation@^3.1128.0":
+  version "3.1128.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1128.0.tgz#ddd8bb89746a01c4d8144804fcf756fa3fe0d65e"
+  integrity sha512-JZHDgu9HSXk4kbaqhNWTeomC3D/XmMqeztwEG0V8CeiOD8q9T4wcQD0ekKAon1lI5rrtyryYHyIR9oda7PJdJw==
   dependencies:
     "@aws-sdk/core" "^3.977.9"
     "@aws-sdk/credential-provider-node" "^3.972.82"
