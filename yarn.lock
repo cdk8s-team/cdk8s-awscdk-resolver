@@ -1052,9 +1052,9 @@
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
 
 "@tybys/wasm-util@^0.10.3":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz#015cba9e9dd47ce14d03d2a8c5d547bfb169665d"
-  integrity sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg==
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/@tybys/wasm-util/-/wasm-util-0.10.4.tgz#3e85ecb266f9d1722250e89bc69528615720b154"
+  integrity sha512-W3c4gRigFS0T/Ma4qIYF3GDAc5AQdHb1yL5znJT1Zv1YaD9Kitx656wBjvr19qbiosmZT8lWDM5BEMynUqX65A==
   dependencies:
     tslib "^2.4.0"
 
@@ -1161,11 +1161,11 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*":
-  version "22.20.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.20.2.tgz#daae777b5f5965a587f50cc80d5364c2ddf27e36"
-  integrity sha512-xlvWf4Vs9n1PEVYwP1n4vvG07M6y8WgvJ2t0vbrWTmijsIHp1cS+uJ2kMIRdY3nHZK0nCYKrPeD171+SzF4/zw==
+  version "26.5.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.5.1.tgz#b19c390e15813f402a94b86e3af9042f792138be"
+  integrity sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g==
   dependencies:
-    undici-types "~6.21.0"
+    undici-types "~8.9.0"
 
 "@types/node@^16":
   version "16.18.126"
@@ -1772,9 +1772,9 @@ balanced-match@^4.0.2:
   integrity sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==
 
 baseline-browser-mapping@^2.11.20:
-  version "2.11.22"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.22.tgz#d8b612f54517d8b3a31734623779e5ab8c5ff0b9"
-  integrity sha512-pWc4w51fBFd7mav43/zKRC+RI6f4yfzQoVlfvE8dECePyfkn1bzLp01Fj0QACcyCZyFhiEMyD2qScfKRWgWibA==
+  version "2.11.23"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.23.tgz#304c980a35de0f460cf12985359d6e11494c1ab4"
+  integrity sha512-le521dGVfxM7yRX0EikCoSz+rOK+hHzdDt/E7mG1jOJB/6WAAUuwVroLwaB7ApaUsz5Q0kFlDXLSA9MheUIfRQ==
 
 bowser@^2.11.0:
   version "2.14.1"
@@ -4324,10 +4324,29 @@ jsii-reflect@^1.140.0:
     oo-ascii-tree "^1.140.0"
     yargs "^17.7.3"
 
-jsii-rosetta@^5, jsii-rosetta@^5.9.3, jsii-rosetta@^5.9.65:
+jsii-rosetta@^5:
   version "5.9.65"
   resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.65.tgz#9594ac1a76275d30797e4a05c1a72b45ce6fc2a3"
   integrity sha512-V1gOVeVTUlM5hTuxzckDnxpcVabe5eCDwufxCBdCsyK5XEo1bdb9FK1yQncE3ZGLHKaAzhLL5/sCzn9U/rRFkA==
+  dependencies:
+    "@jsii/check-node" "^1.140.0"
+    "@jsii/spec" "^1.140.0"
+    "@xmldom/xmldom" "^0.9.12"
+    chalk "^4"
+    commonmark "^0.31.2"
+    fast-glob "^3.3.3"
+    jsii "~5.9.1"
+    semver "^7.8.5"
+    semver-intersect "^1.5.0"
+    stream-json "^1.9.1"
+    typescript "~5.9"
+    workerpool "^6.5.1"
+    yargs "^17.7.3"
+
+jsii-rosetta@^5.9.3, jsii-rosetta@^5.9.65:
+  version "5.9.66"
+  resolved "https://registry.yarnpkg.com/jsii-rosetta/-/jsii-rosetta-5.9.66.tgz#d90a35678f52cbcb92874bd58e487f9f49f606a5"
+  integrity sha512-ZItI+WD4JrFRHh52vnt3XiQ+mnMOuJDGLoyyH3qBXLFagKaR5n/61EYpLScbELDPsRlbwZnydc/0ZWsQgynYEQ==
   dependencies:
     "@jsii/check-node" "^1.140.0"
     "@jsii/spec" "^1.140.0"
@@ -4355,13 +4374,31 @@ jsii-srcmak@0.1.1319:
     ncp "^2.0.0"
     yargs "^17.7.2"
 
-jsii@^5, jsii@~5.9.1, jsii@~5.9.3:
+jsii@^5:
   version "5.9.53"
   resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.9.53.tgz#a03202cc3545f442a776e8e81f6b860091051443"
   integrity sha512-IqNfn1EWYOL/nkgYv3meNgRz/5yCbjNJgp1qFxkAEvIUPMlgKjCINXjAv21n3pXREVT1VAsMldG0MrtKaCywgw==
   dependencies:
     "@jsii/check-node" "1.139.0"
     "@jsii/spec" "1.139.0"
+    case "^1.6.3"
+    chalk "^4"
+    fast-deep-equal "^3.1.3"
+    log4js "^6.9.1"
+    semver "^7.8.5"
+    semver-intersect "^1.5.0"
+    sort-json "^2.0.1"
+    spdx-license-list "^6.12.0"
+    typescript "~5.9"
+    yargs "^17.7.3"
+
+jsii@~5.9.1, jsii@~5.9.3:
+  version "5.9.54"
+  resolved "https://registry.yarnpkg.com/jsii/-/jsii-5.9.54.tgz#2b3e71689bfeea03919042e4ae298c90e25b77e4"
+  integrity sha512-tkT6Ug/TR/GrZaM9AYVmc4tTG2Pe6ACv44u8184Cfm1iWxKOMDys8IaguOoVxqtHEZJuYWS+KLnDIKYEkPN83Q==
+  dependencies:
+    "@jsii/check-node" "1.140.0"
+    "@jsii/spec" "1.140.0"
     case "^1.6.3"
     chalk "^4"
     fast-deep-equal "^3.1.3"
@@ -6127,10 +6164,10 @@ undici-types@~5.26.4:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
-undici-types@~6.21.0:
-  version "6.21.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
-  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
+undici-types@~8.9.0:
+  version "8.9.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-8.9.0.tgz#e240d97c8b5d85e5347ce73d25865c7906c1ec9f"
+  integrity sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==
 
 universalify@^0.1.0:
   version "0.1.2"
