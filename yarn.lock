@@ -20,10 +20,10 @@
     jsonschema "~1.4.1"
     semver "^7.7.1"
 
-"@aws-sdk/client-cloudformation@^3.1140.0":
-  version "3.1140.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1140.0.tgz#fd2ea1f0e69094f2dfa435ece1071aaa76b0331c"
-  integrity sha512-q+A5qLfKvstBCm/zsHjg6sKlP17nZ2CVNuxwf4fmUmYbjEyk9QLwf/nX2oHGUtWiKmUDBTAzHr+IaZk91txX5w==
+"@aws-sdk/client-cloudformation@^3.1141.0":
+  version "3.1141.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1141.0.tgz#5f7d61cfd8c12af18d390ac9e092b376b5cb5457"
+  integrity sha512-D1+eBndiEYAj71m4jz6tMfqovnRm/swM54oIMy/l0uNa0WbUyyuOn0SkkLc1NAvYma5SEHbWc8HmJVBHmziOkg==
   dependencies:
     "@aws-sdk/core" "^3.978.1"
     "@aws-sdk/credential-provider-node" "^3.972.84"
@@ -1035,12 +1035,12 @@
     tslib "^2.6.2"
 
 "@smithy/signature-v4@^5.7.3":
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/@smithy/signature-v4/-/signature-v4-5.7.3.tgz#76603bf1ac9aa44e1d2f4f358b0cc0cf84961e46"
-  integrity sha512-7ImGm+FkHRLcBaRttIAMZ6bzJZWb2cJGoYjq46F2UjycujWzrL9GEN9h4w7eQyXJYnltrUhxbbieBAIRrdqpow==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/@smithy/signature-v4/-/signature-v4-5.7.4.tgz#f188be5238ddb5c5b3117f6fb75d36a38f8b033f"
+  integrity sha512-tHy0K0VtqNd5Y7Y41h0a0Lhh0L1GzC08dTWg0F7vRJWFtTENg7IZikf3wQkanYIRdb7ngoIPMTmqgUi401fEeQ==
   dependencies:
-    "@smithy/core" "^3.33.3"
-    "@smithy/types" "^4.17.2"
+    "@smithy/core" "^3.35.0"
+    "@smithy/types" "^4.19.0"
     tslib "^2.6.2"
 
 "@smithy/types@^4.17.2", "@smithy/types@^4.18.0", "@smithy/types@^4.19.0":
