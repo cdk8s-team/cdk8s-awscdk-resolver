@@ -20,10 +20,10 @@
     jsonschema "~1.4.1"
     semver "^7.7.1"
 
-"@aws-sdk/client-cloudformation@^3.1150.0":
-  version "3.1150.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1150.0.tgz#d752ad25b264273883264e6580dd62f628b6c832"
-  integrity sha512-tIpRDIZ67jz58J6m+bt6cbIA5+sMJpmluNPcfawyAoVBKP7vFg7fXvFoJhZtJDO5dnMnHj38jJ68VF50R8/kPg==
+"@aws-sdk/client-cloudformation@^3.1151.0":
+  version "3.1151.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cloudformation/-/client-cloudformation-3.1151.0.tgz#464e5ec83c3b9dae07b05ef958ad942e90226b86"
+  integrity sha512-smyq3wPc52AbL1kJXkpai/2lF3cZbDRScwbBDMFVK60+FA3fGDzFQzakssah+XfQuBY9QxdSjBllJ+PXXFJO3Q==
   dependencies:
     "@aws-sdk/core" "^3.978.3"
     "@aws-sdk/credential-provider-node" "^3.972.86"
@@ -1000,9 +1000,9 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@smithy/core@^3.33.2", "@smithy/core@^3.33.3", "@smithy/core@^3.35.0", "@smithy/core@^3.35.2":
-  version "3.35.2"
-  resolved "https://registry.yarnpkg.com/@smithy/core/-/core-3.35.2.tgz#6c45b08ba0cb68f610d764d0b0bafb258268670e"
-  integrity sha512-ejTukBuP/Pg3t9N8Ux+0zKsXeHWm7p6W3HbXFOyltKasSxZwCFmvTut7kBdZSCF3m9y1bXXyVu6p2xuMFcsTyQ==
+  version "3.36.0"
+  resolved "https://registry.yarnpkg.com/@smithy/core/-/core-3.36.0.tgz#6294ed0f0a0daf4167ac917970b2ac789b8b68d4"
+  integrity sha512-3hJiwG1F5t1SoXqp/yOCmYXziyx7ZVqF63S5W6YU201e/qwVaHPex+E/3vvyY9a3ORq/b+BydeNZpP2saQ9X2g==
   dependencies:
     "@smithy/types" "^4.19.0"
     tslib "^2.6.2"
