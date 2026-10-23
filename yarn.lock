@@ -1700,10 +1700,10 @@ aws-cdk-lib@2.195.0:
     table "^6.9.0"
     yaml "1.10.2"
 
-aws-cdk@^2.1146.0:
-  version "2.1146.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1146.0.tgz#9c944b56970eb3180ccf6ab5abec152d4654bb5a"
-  integrity sha512-MwIIRSSVGMFDwe0MysbD4H8UjUwC1Cfn/3WjShsjdmgwPlyFn/n4Vrn5pYxIoUCjRUBsPLtq0t5a0LSE2Um/eg==
+aws-cdk@^2.1146.1:
+  version "2.1146.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1146.1.tgz#45a2407a27e5d7485aba7321b78907a52b61d4ff"
+  integrity sha512-Sb3RHuPt8yLP4BPFNl+D2li5wI9h4UL/+NYVq8FCxmDfUJwayzEOc/Tgb4wcixB8naOmPOLzhWkdbFx17tuhSg==
 
 babel-jest@^27.5.1:
   version "27.5.1"
@@ -1780,9 +1780,9 @@ balanced-match@^4.0.2:
   integrity sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==
 
 baseline-browser-mapping@^2.11.29:
-  version "2.11.30"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.30.tgz#cfff2f5f3954e9c9d1488949321bb310eacf346e"
-  integrity sha512-YJs6Pz17RMNv8HoyKREtCY38E3BV1nPkWVmIb+XN1uHC1Vqt3KZCH/uJH9ZKRoiKb/icZ6tvehyee6RZNbFfRA==
+  version "2.11.31"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.31.tgz#09d43ad2aafb3da96c82c8478e70e679ee1235a8"
+  integrity sha512-b0k7wXlWjpuL/Uxb/pYlpjY0ej5BjAmurtPUk3eRGuloI4yjK32m8TiKUQ81l1ptcLjKS/KH2+uqIolZti1x4Q==
 
 bowser@^2.11.0:
   version "2.14.1"
